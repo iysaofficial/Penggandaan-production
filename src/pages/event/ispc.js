@@ -357,9 +357,9 @@ export default function Home() {
                   <label for="LEADER_EMAIL" className="form-label">
                     Alamat Email Ketua Tim
                   </label>
-                  <label>
-                    <p>Notes : Dimohon untuk mengisi email dengan benar</p>
-                  </label>
+                  <div className="info">  
+                    <p>Notes : Dimohon untuk mengisi email leader team dengan benar</p>
+                  </div>
                   <input
                     type="email"
                     id="LEADER_EMAIL"
@@ -375,15 +375,15 @@ export default function Home() {
                   <label htmlFor="LEADER_WHATSAPP" className="form-label">
                     Nomor WhatsApp Ketua Tim
                   </label>
-                  <label>
+                  <div className="info">
                     <p>
                       Harap tulis dengan kode telepon, contoh : (kode negara)
                       (nomor telepon) +62 81770914xxxx
                     </p>
-                    <p>
+                    {/* <p>
                       Notes : Dimohon untuk mengisi nomor ketua tim dengan benar
-                    </p>
-                  </label>
+                    </p> */}
+                  </div>
                   <input
                     type="number"
                     id="LEADER_WHATSAPP"
@@ -482,7 +482,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="buttonindo">
-                <input type="submit" value="submit" onClick={handlePayment} />
+                <input type="Submit" value="Submit" className="fw-bold" onClick={handlePayment} />
               </div>
             </form>
           </div>
