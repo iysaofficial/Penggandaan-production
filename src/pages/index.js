@@ -24,13 +24,13 @@ export default function Home() {
             <div className="info">
               <p>
                 Pilih salah satu dari beberapa nama acara event yang sedang
-                diikuti dan di mana Anda ingin melakukan penggandaan jumlah medali yang
-                diperoleh...
+                diikuti dan di mana Anda ingin melakukan penggandaan jumlah
+                medali yang diperoleh...
               </p>
             </div>
             <form name="regist-form mt-5">
               <div class="link-web mx-auto text-center">
-                <Link href="/event/glocolis" legacyBehavior>
+                {/* <Link href="/event/glocolis" legacyBehavior>
                   <a className="btn btn--primary text-center mt-5">
                     Penggandaan GLOCOLIS
                   </a>
@@ -38,6 +38,16 @@ export default function Home() {
                 <Link href="/event/ispc" legacyBehavior>
                   <a class="btn btn--accent text-center mt-5">
                     Penggandaan ISPC
+                  </a>
+                </Link> */}
+                <Link href="/event/wice" legacyBehavior>
+                  <a className="btn btn--primary text-center mt-5">
+                    Penggandaan  WICE
+                  </a>
+                </Link>
+                <Link href="/event/nice" legacyBehavior>
+                  <a className="btn btn--primary text-center mt-5">
+                    Penggandaan NICE
                   </a>
                 </Link>
               </div>
