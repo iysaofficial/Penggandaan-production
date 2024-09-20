@@ -18,13 +18,13 @@ export default function Home() {
         <div className="container">
           <div className="content">
             <h1 className="sub">FORMULIR PENGGANDAAN MEDALI</h1>
-            <h1 className="garis-bawah"></h1>
+            {/* <h1 className="garis-bawah"></h1> */}
             <br></br>
 
             <div className="info">
               <p>
                 Pilih salah satu dari beberapa nama acara event yang sedang
-                diikuti dan di mana Anda ingin melakukan penggandaan jumlah
+                diikuti dan di mana anda ingin melakukan penggandaan jumlah
                 medali yang diperoleh...
               </p>
             </div>

@@ -283,10 +283,6 @@ export default function Home() {
             <h1 className="sub">FORMULIR PENGGANDAAN MEDALI</h1>
             <h1 className="garis-bawah"></h1>
             <br></br>
-            {/* <h4>
-              HALLO PESERTA GYIIF 2025, Mohon perhatikan informasi berikut ini
-              sebelum mengisi formulir PENGGANDAAN MEDALI :
-            </h4> */}
 
             <form name="regist-form">
               <div className="user-details">
@@ -484,6 +480,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              {/* <button type="button" class="btn btn-dark">
+                Dark
+              </button> */}
               <div className="buttonindo">
                 <input
                   type="Submit"
