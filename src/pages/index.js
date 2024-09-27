@@ -40,14 +40,14 @@ export default function Home() {
                     Penggandaan ISPC
                   </a>
                 </Link> */}
-                <Link href="/event/wice" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a className="btn btn--primary text-center mt-5">
-                    Penggandaan  WICE
+                  Closed
                   </a>
                 </Link>
-                <Link href="/event/nice" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a className="btn btn--primary text-center mt-5">
-                    Penggandaan NICE
+                    Closed
                   </a>
                 </Link>
               </div>
