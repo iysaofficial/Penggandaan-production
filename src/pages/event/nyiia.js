@@ -209,7 +209,7 @@ export default function Home() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbzlE3beM9Hl-bMM9cfohymY6mZbjBYlsZiqNeJTdMGRq7o7D62yxW133-2MM08DH00F_A/exec";
+      "https://script.google.com/macros/s/AKfycbx1cXQMVEOPAqPtKaWA2AxEf4PCL7lL-uGBFaU9Hcfo1cBRwCSXrRJ9qcTNQQCbD1SX/exec";
 
     const form = document.forms["regist-form"];
 
@@ -242,7 +242,7 @@ export default function Home() {
   }, []);
 
   const updateSpreadsheetWithStatus = async (orderId, status) => {
-    const scriptURL = "https://script.google.com/macros/s/AKfycbyNYfR0O0TpYEw9O7cXa_avqr5bWYdwUysFOHbf0s4ioigUlw4YFadgBh0rn494i2anRA/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbx1cXQMVEOPAqPtKaWA2AxEf4PCL7lL-uGBFaU9Hcfo1cBRwCSXrRJ9qcTNQQCbD1SX/exec";
 
     try {
       const response = await fetch(scriptURL, {
