@@ -40,14 +40,14 @@ export default function Home() {
                     Penggandaan ISPC
                   </a>
                 </Link> */}
-                <Link href="/event/wyiia" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a className="btn btn--primary text-center mt-5">
-                    Penggandaan WYIIA
+                    Closed
                   </a>
                 </Link>
-                <Link href="/event/nyiia" legacyBehavior>
+                <Link href="/" legacyBehavior>
                   <a className="btn btn--primary text-center mt-5">
-                  Penggandaan NYIIA</a>
+                  Closed</a>
                 </Link>
               </div>
             </form>
